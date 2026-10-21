@@ -2,13 +2,13 @@
 
 ## LencanaStok
 
-Properti: `status` (tersedia, menipis, habis), `label` teks jumlah.
+Properti: `status` (aman, menipis, habis; sama dengan enum API `StatusStok`), `label` teks jumlah.
 Contoh: `<LencanaStok status="menipis" label="200 ml" />`.
-Warna mengikuti `tokens/warna.json`.
+Warna mengikuti `warna.stok.*` (lihat `docs/TOKEN.md`); selalu disertai ikon dan label teks.
 
 ## BilahKedaluwarsa
 
-Properti: `status` (aman, segera, lewat), `sisaHari` angka.
+Properti: `status` (aman, waspada, segera, hari-ini, kedaluwarsa; sama dengan enum API `StatusKedaluwarsa`), `sisaHari` angka.
 Contoh: `<BilahKedaluwarsa status="segera" sisaHari="2" />`.
 
 ## KartuResep (dipakai ulang dari Pawonee)

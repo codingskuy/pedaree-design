@@ -42,4 +42,6 @@ npm ci
 npm run bangun-token
 ```
 
-Hasil bangun tersedia di `dist/`.
+Hasil bangun tersedia di `dist/` (CSS, TS, Compose; tema terang dan gelap).
+`npm run periksa` memeriksa kelengkapan status dan kontras WCAG; `npm run uji` menjalankan uji pemeriksa.
+Petunjuk pemetaan: `docs/TOKEN.md`.
