@@ -5,6 +5,7 @@ Format mengikuti Keep a Changelog; versi mengikuti TownHall.
 ## [Belum dirilis]
 
 ### Ditambahkan
+- Spesifikasi kartu ringkas mobile, dasbor web, lencana/banner/push kedaluwarsa; bagian Link Figma di README dengan placeholder dan blocker (PDR-DSG-004).
 - Flow lima alur catat stok (mobile maks 3 layar, web maks 2 langkah), spesifikasi ringkasan konversi dan pratinjau FEFO, `docs/FLOW-CATAT-STOK.md` (PDR-DSG-003).
 - Token 5 status kedaluwarsa + 3 status stok (`teks`/`latar`/`penanda`), tema terang dan gelap, keluaran CSS/TS/Compose, pemeriksa kontras WCAG, `docs/TOKEN.md`, `.gitignore` graphify-out (PDR-DSG-002).
 - Fondasi AI-dev v1.0.0: `AGENTS.md`, `CLAUDE.md`, ADR-0001, `docs/ARSITEKTUR-AI-DEV.md` (2026-10-14).

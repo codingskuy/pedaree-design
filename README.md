@@ -20,12 +20,26 @@ Kontrak lintas divisi (detail: `docs/MODUL-PANTRY-RESEP.md`):
   gayanya).
 - Perubahan pada kartu resep dikoordinasikan dengan repo desain Pawonee.
 
+## Link Figma
+
+> TODO (blocker): URL berkas Figma BELUM ADA. Tidak ada tautan Figma di repo ini, TownHall, maupun issue;
+> sesi pengerjaan tidak punya akses Figma (konektor Figma belum terautentikasi), dan URL tidak boleh dikarang.
+> Pemilik desain (manusia) perlu membuat berkas dan mengisi baris di bawah, lalu PR kecil memperbarui README.
+> AGENTS.md mewajibkan link ini terisi; tiket PDR-DSG-004 belum dapat ditutup penuh sebelum itu.
+
+| Berkas | URL | Pemilik | Status |
+|---|---|---|---|
+| Pedaree - sistem desain (token, komponen) | `BELUM-ADA (isi URL Figma)` | belum ditentukan | menunggu |
+| Pedaree - flow 5 alur catat stok | `BELUM-ADA (isi URL Figma)` | belum ditentukan | menunggu |
+| Pedaree - dasbor web + kartu ringkas | `BELUM-ADA (isi URL Figma)` | belum ditentukan | menunggu |
+
+Spesifikasi sementara berupa Markdown: `docs/TOKEN.md`, `docs/FLOW-CATAT-STOK.md`, `components/`. Token di Figma harus memakai nama yang sama dengan `tokens/`.
+
 ## Isi
 
 ```text
 tokens/            token desain (warna, tipografi, jarak)
-components/       spesifikasi komponen inventori
-screens/          spesifikasi layar utama (stok, mutasi, resep hemat)
+components/       spesifikasi komponen (inventori, kartu ringkas, dasbor web, lencana/banner kedaluwarsa)
 docs/              arsitektur dan kontrak modul
 ```
 
