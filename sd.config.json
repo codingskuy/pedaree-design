@@ -1,0 +1,53 @@
+{
+  "usesDtcg": true,
+  "source": [
+    "tokens/warna.json",
+    "tokens/jarak.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "prefix": "pdr",
+      "buildPath": "dist/css/",
+      "files": [
+        {
+          "destination": "tokens-terang.css",
+          "format": "css/variables",
+          "options": {
+            "selector": ":root",
+            "outputReferences": false
+          }
+        }
+      ]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "buildPath": "dist/ts/",
+      "files": [
+        {
+          "destination": "tokens-terang.js",
+          "format": "javascript/es6"
+        },
+        {
+          "destination": "tokens-terang.d.ts",
+          "format": "typescript/es6-declarations"
+        }
+      ]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "dist/compose/",
+      "files": [
+        {
+          "destination": "PedareeTokenTerang.kt",
+          "format": "compose/object",
+          "options": {
+            "className": "PedareeTokenTerang",
+            "packageName": "id.chefgenie.pedaree.desain",
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "jarak": {
+    "$type": "dimension",
+    "kecil": {
+      "$value": "0.25rem"
+    },
+    "sedang": {
+      "$value": "0.5rem"
+    },
+    "besar": {
+      "$value": "1rem"
+    },
+    "sentuh-min": {
+      "$value": "3rem",
+      "$description": "Target sentuh minimum 48 (WCAG 2.5.8 / Material 48dp). Satuan rem: 1rem = 16dp di Compose, 16px di CSS."
+    }
+  }
+}

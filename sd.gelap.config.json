@@ -1,0 +1,52 @@
+{
+  "usesDtcg": true,
+  "source": [
+    "tokens/warna-gelap.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "prefix": "pdr",
+      "buildPath": "dist/css/",
+      "files": [
+        {
+          "destination": "tokens-gelap.css",
+          "format": "css/variables",
+          "options": {
+            "selector": ":root[data-tema=\"gelap\"]",
+            "outputReferences": false
+          }
+        }
+      ]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "buildPath": "dist/ts/",
+      "files": [
+        {
+          "destination": "tokens-gelap.js",
+          "format": "javascript/es6"
+        },
+        {
+          "destination": "tokens-gelap.d.ts",
+          "format": "typescript/es6-declarations"
+        }
+      ]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "dist/compose/",
+      "files": [
+        {
+          "destination": "PedareeTokenGelap.kt",
+          "format": "compose/object",
+          "options": {
+            "className": "PedareeTokenGelap",
+            "packageName": "id.chefgenie.pedaree.desain",
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "warna": {
+    "$type": "color",
+    "permukaan": {
+      "halaman": {
+        "$value": "#0d1117"
+      },
+      "teks": {
+        "$value": "#e6edf3"
+      },
+      "teks-redup": {
+        "$value": "#9198a1"
+      }
+    },
+    "kedaluwarsa": {
+      "aman": {
+        "teks": {
+          "$value": "#7ee2a0"
+        },
+        "latar": {
+          "$value": "#0f2d1a"
+        },
+        "penanda": {
+          "$value": "#3fb950"
+        }
+      },
+      "waspada": {
+        "teks": {
+          "$value": "#f2cc60"
+        },
+        "latar": {
+          "$value": "#33290a"
+        },
+        "penanda": {
+          "$value": "#d4a72c"
+        }
+      },
+      "segera": {
+        "teks": {
+          "$value": "#ffa657"
+        },
+        "latar": {
+          "$value": "#3a1d08"
+        },
+        "penanda": {
+          "$value": "#f0883e"
+        }
+      },
+      "hari-ini": {
+        "teks": {
+          "$value": "#ff8e8e"
+        },
+        "latar": {
+          "$value": "#3d1214"
+        },
+        "penanda": {
+          "$value": "#f85149"
+        }
+      },
+      "kedaluwarsa": {
+        "teks": {
+          "$value": "#cdb0b6"
+        },
+        "latar": {
+          "$value": "#2e2326"
+        },
+        "penanda": {
+          "$value": "#a8868d"
+        }
+      }
+    },
+    "stok": {
+      "aman": {
+        "teks": {
+          "$value": "{warna.kedaluwarsa.aman.teks}"
+        },
+        "latar": {
+          "$value": "{warna.kedaluwarsa.aman.latar}"
+        },
+        "penanda": {
+          "$value": "{warna.kedaluwarsa.aman.penanda}"
+        }
+      },
+      "menipis": {
+        "teks": {
+          "$value": "{warna.kedaluwarsa.waspada.teks}"
+        },
+        "latar": {
+          "$value": "{warna.kedaluwarsa.waspada.latar}"
+        },
+        "penanda": {
+          "$value": "{warna.kedaluwarsa.waspada.penanda}"
+        }
+      },
+      "habis": {
+        "teks": {
+          "$value": "{warna.kedaluwarsa.hari-ini.teks}"
+        },
+        "latar": {
+          "$value": "{warna.kedaluwarsa.hari-ini.latar}"
+        },
+        "penanda": {
+          "$value": "{warna.kedaluwarsa.hari-ini.penanda}"
+        }
+      }
+    }
+  }
+}

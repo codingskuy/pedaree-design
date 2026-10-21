@@ -1,17 +1,108 @@
 {
   "warna": {
-    "stok-tersedia": { "value": "#1a7f37" },
-    "stok-menipis": { "value": "#9a6700" },
-    "stok-habis": { "value": "#d1242f" },
-    "kedaluwarsa-aman": { "value": "#1a7f37" },
-    "kedaluwarsa-segera": { "value": "#9a6700" },
-    "kedaluwarsa-lewat": { "value": "#d1242f" },
-    "latar": { "value": "#ffffff" },
-    "teks": { "value": "#1f2328" }
-  },
-  "jarak": {
-    "kecil": { "value": "4" },
-    "sedang": { "value": "8" },
-    "besar": { "value": "16" }
+    "$type": "color",
+    "permukaan": {
+      "halaman": {
+        "$value": "#ffffff"
+      },
+      "teks": {
+        "$value": "#1f2328"
+      },
+      "teks-redup": {
+        "$value": "#59636e"
+      }
+    },
+    "kedaluwarsa": {
+      "aman": {
+        "teks": {
+          "$value": "#1a7f37"
+        },
+        "latar": {
+          "$value": "#dafbe1"
+        },
+        "penanda": {
+          "$value": "#1a7f37"
+        }
+      },
+      "waspada": {
+        "teks": {
+          "$value": "#7a5500"
+        },
+        "latar": {
+          "$value": "#fff4c2"
+        },
+        "penanda": {
+          "$value": "#bf8700"
+        }
+      },
+      "segera": {
+        "teks": {
+          "$value": "#a84300"
+        },
+        "latar": {
+          "$value": "#ffe5d0"
+        },
+        "penanda": {
+          "$value": "#d1570b"
+        }
+      },
+      "hari-ini": {
+        "teks": {
+          "$value": "#b3141c"
+        },
+        "latar": {
+          "$value": "#ffe0e0"
+        },
+        "penanda": {
+          "$value": "#cf222e"
+        }
+      },
+      "kedaluwarsa": {
+        "teks": {
+          "$value": "#6b4a50"
+        },
+        "latar": {
+          "$value": "#ebe1e3"
+        },
+        "penanda": {
+          "$value": "#8c6a71"
+        }
+      }
+    },
+    "stok": {
+      "aman": {
+        "teks": {
+          "$value": "{warna.kedaluwarsa.aman.teks}"
+        },
+        "latar": {
+          "$value": "{warna.kedaluwarsa.aman.latar}"
+        },
+        "penanda": {
+          "$value": "{warna.kedaluwarsa.aman.penanda}"
+        }
+      },
+      "menipis": {
+        "teks": {
+          "$value": "{warna.kedaluwarsa.waspada.teks}"
+        },
+        "latar": {
+          "$value": "{warna.kedaluwarsa.waspada.latar}"
+        },
+        "penanda": {
+          "$value": "{warna.kedaluwarsa.waspada.penanda}"
+        }
+      },
+      "habis": {
+        "teks": {
+          "$value": "{warna.kedaluwarsa.hari-ini.teks}"
+        },
+        "latar": {
+          "$value": "{warna.kedaluwarsa.hari-ini.latar}"
+        },
+        "penanda": {
+          "$value": "{warna.kedaluwarsa.hari-ini.penanda}"
+        }
+      }
+    }
   }
 }

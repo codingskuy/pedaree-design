@@ -2,10 +2,13 @@
   "name": "pedaree-design",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": "22.14.0" },
+  "engines": {
+    "node": "22.14.0"
+  },
   "scripts": {
-    "bangun-token": "style-dictionary build --config sd.config.json",
-    "periksa": "node scripts/periksa-token.mjs"
+    "bangun-token": "style-dictionary build --config sd.config.json && style-dictionary build --config sd.gelap.config.json",
+    "periksa": "node scripts/periksa-token.mjs",
+    "uji": "node --test scripts/periksa-token.test.mjs"
   },
   "devDependencies": {
     "style-dictionary": "4.3.0"
