@@ -9,3 +9,5 @@ jobs:
         with: { node-version: "22.14.0", cache: npm }
       - run: npm ci
       - run: npm run bangun-token
+      - run: npm run periksa
+      - run: npm run uji
